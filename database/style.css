@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+body {
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.userInfo {
+    width: 500px;
+    min-height: 300px;
+    display: none;
+    flex-direction: row;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.userInfo img {
+    width: 250px;
+    height: 250px;
+    margin-right: 20px;
+}
+
+.userInfo .name {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.userInfo .year {
+    margin-top: 5px;
+}
+
+.userInfo .info {
+    margin-top: 5px;
+}
+
+input {
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid gray;
+    outline: none;
+}
+
+ol li {
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid gray;
+}
+
+ol li:hover {
+    background: rgba(0, 0, 0, 0.139);
+}
